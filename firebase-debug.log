@@ -1,0 +1,40 @@
+[debug] [2022-09-16T08:50:44.340Z] ----------------------------------------------------------------------
+[debug] [2022-09-16T08:50:44.342Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\eKasi_TMB_COM00641\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-16T08:50:44.342Z] CLI Version:   11.9.0
+[debug] [2022-09-16T08:50:44.342Z] Platform:      win32
+[debug] [2022-09-16T08:50:44.342Z] Node Version:  v16.15.1
+[debug] [2022-09-16T08:50:44.344Z] Time:          Fri Sep 16 2022 10:50:44 GMT+0200 (Eastern European Standard Time)
+[debug] [2022-09-16T08:50:44.345Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-16T08:50:44.380Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-16T08:50:44.381Z] > authorizing via signed-in user (yolie797@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\eKasi_TMB_COM00641\Desktop\hotel-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-16T08:58:17.101Z] > refreshing access token with scopes: []
+[debug] [2022-09-16T08:58:17.103Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-09-16T08:58:17.103Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-16T08:58:17.885Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-09-16T08:58:17.885Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-16T08:58:17.958Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-09-16T08:58:18.529Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2022-09-16T08:58:18.594Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (C:\Users\eKasi_TMB_COM00641\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:242:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
